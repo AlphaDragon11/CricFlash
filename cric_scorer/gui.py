@@ -18,7 +18,7 @@ class CricketScore:
         bg = Label(self.rootWindow, image=self.bg).place(x=0, y=0)
 
         # Adding live matches text to GUI
-        self.label = Label(self.rootWindow, text='Live Matches', font=("Helvetica", 45, "bold italic"), fg="#ffffff", bg="#282c34")
+        self.label = Label(self.rootWindow, text='Live Matches', font=("Helvetica", 25, "bold italic"), fg="#ffffff", bg="#282c34")
         self.label.pack(pady=20)
 
         # Adding all live matches combobox in GUI with title
@@ -133,3 +133,5 @@ class CricketScore:
         tree.configure(yscroll=scrollbar.set)
         scrollbar.pack(side=RIGHT, fill=Y)
         tree.pack(fill=BOTH, expand=True)
+
+        
