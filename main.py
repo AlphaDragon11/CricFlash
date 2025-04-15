@@ -1,15 +1,5 @@
 def coin_change_recursive(coins, amount, memo={}):
-    """
-    Solves the coin change problem using recursion with memoization.
-
-    Args:
-        coins: A list of coin denominations.
-        amount: The target amount.
-        memo: A dictionary to store results of subproblems.
-
-    Returns:
-        The minimum number of coins needed to make the amount, or -1 if it's not possible.
-    """
+    
     if amount == 0:
         return 0
     if amount < 0:
