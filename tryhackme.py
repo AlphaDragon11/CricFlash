@@ -11,6 +11,27 @@ def caesar_cipher(text, shift, mode):
         result += shifted_char
     return result
 
+def ascii_art():
+    print("      _,-._ ")
+    print("    / \_/ \ ")
+    print("    >-(_)-< ")
+    print("    \_/ \_/ ")
+    print("      `-' ")
+    print("  ___,-._ ")
+    print(" / \_/ \ ")
+    print("| >-(_)-< |")
+    print(" \ \_/ \_/ ")
+    print("   `-' ")
+    print("      .--""--. ")
+    print("     .'          `. ")
+    print("    /   O      O   \ ")
+    print("   |    \  ^^  /    | ")
+    print("   \     `----'     / ")
+    print("    `. _______ .' ")
+    print("      //_____\\ ")
+    print("     (( ____ )) ")
+    print("      `-----'")
+
 # Example usage:
 text = "This is a secret message!"
 encrypted_text = caesar_cipher(text, 3, 'encrypt')
